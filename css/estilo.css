@@ -1,0 +1,52 @@
+#cta {
+    background: url('../img/hero1/background.png') no-repeat center center;
+    background-position: fixed;
+    background-size: cover;
+}
+
+#cta .texto {
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#cta .texto h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', sans-serif;
+}
+
+#cta .botao {
+    background: #e66f0f;
+    margin-left: 22%;
+    width: 55%;
+    height: 18%;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #000;
+    border-radius: 4px;
+    
+}
+
+
+
+#cta .botao p{ 
+    padding-top: 4%;
+    text-align: center;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 20px;
+    color: rgba(255,255,255,0.9);
+    
+}
+
+#cta .imagem img {
+    max-width: 100%;
+    margin-top: 10%;
+}
+
+#apresentacao {
+
+    background: url('../img/hero1/background2.png') no-repeat center center;
+    background-size: cover;
+}
