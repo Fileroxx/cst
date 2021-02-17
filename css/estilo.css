@@ -14,16 +14,16 @@
 
 #cta .texto h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Alfa Slab One', sans-serif;
 }
 
 #cta .botao {
     background: #e66f0f;
-    margin-left: 10%;
-    padding-top: 15px;
-    width: 80%;
-    height: 18%;
+    margin-left: 20%;
+    padding-top: 7px;
+    width: 60%;
+    height: 40px;
     cursor: pointer;
     box-shadow: 1px 1px 1px #000;
     border-radius: 4px;
@@ -35,14 +35,14 @@
 #cta .botao p { 
     text-align: center;
     font-family: 'Alfa Slab One', sans-serif;
-    font-size: 20px;
     color: rgba(255,255,255,0.9);
     
 }
 
 #cta .imagem img {
     max-width: 100%;
-    margin-top: 10%;
+    margin-left: 10px;
+    margin-bottom: 30px;
 }
 
 #apresentacao {
@@ -124,6 +124,20 @@
     background: url('../img/section1/background2.png') no-repeat center center;
     background-size: cover;
     color: #fff;
+}
+
+#beneficios .titulo .t1{
+    background-color: #1261f2;
+    font-size: 18px;
+    height: 40px;
+}
+
+#beneficios .titulo .t2{ 
+    background-color: #1261f2;
+    padding-bottom: 7px;
+    font-size: 22px;
+    width: 80%;
+    margin-left: 35px;
 }
 
 #beneficios .titulo h1 {
