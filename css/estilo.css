@@ -172,3 +172,91 @@
 #beneficios .imagem img {
     max-width: 80%;
 }
+
+#diferenciais {
+    background: url('../img/bg6.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+#diferenciais .titulo .t1 {
+    background-color: #e66f0f;
+    font-family: 'Alfa Slab One', sans-serif;
+    width: 70%;
+    margin-left: 50px;
+}
+
+#diferenciais .titulo .t2 {
+    background-color: #e66f0f;
+    font-family: 'Alfa Slab One', sans-serif;
+    width: 70%;
+    margin-left: 50px;
+}
+
+
+
+#diferenciais .titulos1 .tt1 {
+    
+    background: #13d66a;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 18px;
+    height: 30px;
+    padding-top: 4px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#diferenciais .titulos1 .tt2 {
+    
+    background: #13d66a;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 18px;
+    width: 60%;
+    margin-left: 20%;
+    height: 30px;
+    padding-top: 4px;
+}
+
+#diferenciais .titulos2 .tt3 {
+    background: #13d66a;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 18px;
+    height: 30px;
+    padding-top: 4px;
+    width: 95%;
+}
+
+#diferenciais .titulos2 .tt4 {
+    background: #13d66a;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 18px;
+    height: 30px;
+    padding-top: 4px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#diferenciais .titulos3 .tt5 {
+    background: #13d66a;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 18px;
+    height: 30px;
+    padding-top: 4px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#diferenciais .titulos3 .tt6 {
+    background: #13d66a;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 18px;
+    height: 30px;
+    padding-top: 4px;
+    width: 45%;
+    margin-left: 25%;
+}
+
+#diferenciais img {
+    width: 20%;
+}
