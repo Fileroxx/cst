@@ -258,5 +258,91 @@
 }
 
 #diferenciais img {
-    width: 20%;
+    width: 15%;
+}
+
+#resultados {
+    background: url('../img/bg7.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+#resultados .titulo .t1 {
+    background-color: #13d66a;
+    font-family: 'Alfa Slab One', sans-serif;
+    width: 100%;
+    font-size: 22px;
+}
+
+#resultados .titulo .t2 {
+    background-color: #13d66a;
+    font-family: 'Alfa Slab One', sans-serif;
+    width: 100%;
+    font-size: 22px;
+}
+
+#resultados .subtitulo h3 {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Alfa Slab One', sans-serif;
+}
+
+#resultados .conteudo .cont1 {
+    background-color: #3c44a9;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 16px;
+    height: 40px;
+    padding-top: 7px;
+    width: 80%;
+    box-shadow: 1px 1px 1px #000;
+    margin-left: 10%;
+
+}
+
+#resultados .conteudo .cont2 {
+    background-color: #3c44a9;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 16px;
+    height: 40px;
+    padding-top: 7px;
+    width: 80%;
+    box-shadow: 1px 1px 1px #000;
+    margin-left: 10%;
+}
+
+#resultados .conteudo .cont3 {
+    background-color: #3c44a9;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    padding-top: 7px;
+    width: 80%;
+    box-shadow: 1px 1px 1px #000;
+    margin-left: 10%;
+}
+
+#resultados .conteudo .cont4 {
+    background-color: #3c44a9;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 16px;
+    height: 40px;
+    padding-top: 7px;
+    width: 80%;
+    box-shadow: 1px 1px 1px #000;
+    margin-left: 10%;
+}
+
+#resultados .botao {
+    border: 2px solid #fff;
+    width: 60%;
+    padding-top: 10px;
+    border-radius: 4px;
+    margin-left: 20%;
+    font-family: 'Alfa Slab One', sans-serif;
+
+}
+
+#resultados .botao:hover {
+    cursor: pointer;
 }
