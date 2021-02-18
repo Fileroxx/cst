@@ -496,16 +496,12 @@
         background-color: #e66f0f;
     }
 
-    #especial2 {
-        background: url('../img/section1/background2.png') no-repeat center center;
-        background-size: cover;
-        color: #fff;
-    }
 
-    #especial2 .titulo {
+    #especial .titulo2 {
         background: #13d66a;
-        width: 60%;
-        margin-left: 20%;
+        width: 50%;
+        margin-left: 25%;
+        font-family: 'Alfa Slab One', sans-serif;
     }
 
     /*//ESPECIAL*/
