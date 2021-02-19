@@ -1118,6 +1118,182 @@
 }
 /*//LAPTOP*/
 
+/*COMPUTADORES*/
+@media only screen and (min-width: 1440px) {
+    #cta .botao {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #apresentacao .texto p {
+        max-width: 400px;
+        margin-left: 20%;
+    }
+
+    #apresentacao .imagem {
+        width: 50%;
+    }
+    
+    #what .titulo .t1 {
+        width: 40%;
+        margin-left: 25%;
+    }
+
+    #what .titulo .t2 {
+        width: 30%;
+        margin-left: 30%;
+    }
+
+    #what .paragrafo {
+        margin-left: 15%;
+    }
+
+    #what .botao {
+        width: 20%;
+        margin-left: 35%;
+    }
+
+    #beneficios .titulo .t1 {
+        width: 40%;
+        margin-left: 30%;
+    }
+    
+    #beneficios .titulo .t2 {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    #beneficios .botao {
+        width: 20%;
+        margin-left: 40%;
+    }
+    
+    #beneficios .imagem {
+        max-width: 30%;
+        margin-left: 35%;
+    }
+
+    #diferenciais .titulo .t1 {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #diferenciais .titulo .t2 {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    #resultados .titulo .t1 {
+        width: 40%;
+        margin-left: 30%;
+    }
+    
+    #resultados .titulo .t2 {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    #resultados .subtitulo {
+        margin-left: 20%;
+    }
+
+    #resultados .conteudo .cont1 {
+        width: 30%;
+        margin-left: 35%;
+    }
+    #resultados .conteudo .cont2 {
+        width: 30%;
+        margin-left: 35%;
+    }
+    #resultados .conteudo .cont3 {
+        width: 30%;
+        margin-left: 35%;
+    }
+    #resultados .conteudo .cont4 {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    #especial .titulo .t1 {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #especial .titulo2{
+        width: 20%;
+        margin-left: 40%;
+    }
+    
+    #especial .paragrafo {
+        margin-left: 20%;
+    }
+
+    #compra .titulo .t1 {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #compra .subtitulo h3 {
+        margin-left: 35%;
+    }
+
+    #compra .subtitulo .marcacao {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #compra .imagem {
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    #devolucao .titulo .t1 {
+        width: 40%;
+    }
+
+    #devolucao .titulo .t2 {
+        width: 30%;
+    }
+
+    #devolucao .paragrafo {
+        margin-left: 32%;
+    }
+
+    #devolucao .botao {
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    #compras .imagem {
+            width: 40%;
+            margin-left: 30%;
+    }
+    
+    #compras .conteudo1 .t1 {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #compras .conteudo1 .t2 {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    #compras .conteudo1 .t4 {
+        font-size: 20px;
+        max-width: 500px;
+        height: 60px;
+        margin-left: 30%;
+    }
+
+    #compras .botao {
+        width: 30%;
+        margin-left: 33%;
+    }
+    
+}
+
+/*//COMPUTADORES*/
 
 
 
