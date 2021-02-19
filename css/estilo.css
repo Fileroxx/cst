@@ -974,5 +974,152 @@
 }
 /*//TABLET*/
 
+/*LAPTOP*/
+@media only screen and (min-width: 1024px) {
+   #cta .texto .t1 {
+       font-size: 40px;
+   }
+
+   #cta .texto .t2 {
+       font-size: 40px;
+   }
+
+   #cta .texto .t3 {
+       font-size: 40px;
+   }
+
+   #apresentacao .imagem {
+       width: 70%;
+   }
+
+   #what .paragrafo {
+       margin-left: 10%;
+   }
+
+   #what .botao {
+       width: 30%;
+       margin-left: 33%;
+   }
+
+   #beneficios .titulo .t1 {
+       margin-top: 30px;
+       width: 55%;
+       margin-left: 20%;
+   }
+
+   #beneficios .titulo .t2 {
+       width: 55%;
+       margin-left: 25%;
+   }
+
+   #beneficios .mais h1 {
+       font-size: 35px;
+   }
+
+   #beneficios .mais .m2{
+       margin-right: 60px;
+   }
+
+   #beneficios .mais .m3 {
+       margin-right: 140px;
+   }
+   
+   #beneficios .mais .m4 {
+        margin-right: 195px;
+
+   }
+   
+   #beneficios .botao {
+       width: 30%;
+       margin-left: 35%;
+   }
+
+   #beneficios .imagem {
+       max-width: 40%;
+       margin-left: 30%;
+   }
+
+   #resultados .titulo .t1 {
+       width: 60%;
+       margin-left: 20%;
+   }
+
+   #resultados .titulo .t2 {
+       width: 50%;
+       margin-left: 25%;
+   }
+
+   #resultados .subtitulo {
+       margin-left: 10%;
+   }
+
+   #resultados .botao {
+       width: 30%;
+       margin-left: 35%;
+   }
+
+   #especial .paragrafo {
+       margin-left: 10%;
+   }
+
+   #compra .titulo .t1 {
+       width: 60%;
+       margin-left: 20%;
+   }
+
+   #compra .subtitulo h3 {
+       font-size: 25px;
+       margin-left: 25%;
+   }
+
+   #compra .subtitulo .marcacao {
+       width: 60%;
+       margin-left: 20%;
+       margin-bottom: 20px;
+   }
+
+   #devolucao .paragrafo {
+       margin-left: 25%;
+   }
+
+   #devolucao .botao {
+       width: 30%;
+       margin-left: 35%;
+   }
+
+    #compras .imagem {
+        width: 60%;
+    }
+
+    #compras .conteudo1 .t1 {
+        width: 50%;
+        margin-left: 23%;
+    }
+    
+    #compras .conteudo1 .t2 {
+        width: 60%;
+        margin-left: 18%;
+    }
+
+    #compras .conteudo1 .t3 {
+      margin-right: 20px;
+    }
+
+    #compras .conteudo1 .t4 {
+        width: 60%;
+        height: 118px;
+        margin-left: 18%;
+    }
+
+    #compras .botao {
+        width: 40%;
+        margin-left: 28%;
+    }
+}
+/*//LAPTOP*/
+
+
+
+
 
 /*MEDIA QUERIES*/
