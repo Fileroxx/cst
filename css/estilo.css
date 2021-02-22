@@ -1300,6 +1300,274 @@
 
 /*//COMPUTADORES*/
 
+/*NOTEBOOK*/
+@media only screen and (min-width: 1366px) {
+    
+    #apresentacao .texto .t1 {
+        width: 70%;
+        margin-left: 30%;
+    }
+
+    #apresentacao .texto .t2 {
+        width: 70%;
+        margin-left: 30%;
+    }
+   
+    #apresentacao .texto p {
+        max-width: 500px;
+        margin-left: 30%;
+    }
+
+    #apresentacao .imagem {
+        width: 60%;
+    }
+
+    #what .titulo .t1 {
+        width: 30%;
+        margin-left: 35%;
+
+    }
+
+    #what .titulo .t2 {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    #what .paragrafo p {
+        margin-left: 19%;
+        max-width: 600px;
+    }
+
+    #what .botao {
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    #beneficios .titulo .t1 {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #beneficios .titulo .t2 {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #beneficios .mais h1{
+        font-style: italic;
+        font-size: 50px;
+    }
+
+    #beneficios .mais .m2{
+        margin-left: 4%;
+    }
+
+    #beneficios .mais .m4{
+        margin-right: 18%;
+    }
+
+    #beneficios .botao {
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    #diferenciais .titulo .t1 {
+        width: 35%;
+        margin-left: 30%;
+    }
+
+    #diferenciais .titulo .t2 {
+        width: 35%;
+        margin-left: 30%;
+    }
+
+    #diferenciais .titulos1 .tt1{
+        font-style: italic;
+        font-size: 25px;
+        height: 40px;
+    }
+
+    #diferenciais .titulos1 .tt2 {
+        font-style: italic;
+        font-size: 25px;
+        height: 40px;
+    }
+
+    #diferenciais .paragrafo1 {
+        max-width: 500px;
+    }
+
+    #diferenciais .titulos2 .tt3 {
+        font-size: 25px;
+        width: 90%;
+        height: 40px;
+    }
+
+    #diferenciais .titulos2 .tt4 {
+        font-size: 25px;
+        width: 90%;
+        height: 40px;
+        margin-left: 0;
+    }
+    
+    #diferenciais .paragrafo2 {
+        max-width: 500px;
+    }
+
+    #diferenciais .titulos3 .tt5 {
+        font-size: 25px;
+        height: 40px;
+    }
+
+    #diferenciais .titulos3 .tt6 {
+
+        font-size: 25px;
+        height: 40px;
+    }
+
+    #resultados .titulo .t1 {
+        width: 40%;
+        margin-left: 30%;
+    }
+    
+    #resultados .titulo .t2 {
+        font-size: 40px;
+        width: 40%;
+        margin-left: 30%;    
+    
+    }
+
+    #resultados .subtitulo {
+        margin-left: 20%;
+    }
+
+    #resultados .conteudo .cont1 {
+        width: 30%;
+        border-radius: 6px;
+        margin-left: 35%;
+        font-style: italic;
+    }
+
+    #resultados .conteudo .cont2 {
+        width: 30%;
+        border-radius: 6px;
+        margin-left: 35%;
+        font-style: italic;
+    }
+
+    #resultados .conteudo .cont3 {
+        width: 30%;
+        border-radius: 6px;
+        margin-left: 35%;
+        font-style: italic;
+    }
+    
+    #resultados .conteudo .cont4 {
+        width: 30%;
+        border-radius: 6px;
+        margin-left: 35%;
+        font-style: italic;
+    }
+
+    #resultados .botao {
+        width: 20%;
+        margin-left: 40%;
+        border-radius: 8px;
+    }
+
+    #clientes .titulo .t1 {
+        width: 35%;
+        margin-left: 30%;
+    }
+
+    #clientes .titulo .t2 {
+        width: 35%;
+        margin-left: 30%;
+    }
+
+    #especial .titulo .t1 {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    #especial .titulo2 {
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    #especial .paragrafo {
+        margin-left: 20%;
+    }
+
+    #compra .titulo .t1 {
+        width: 45%;
+        margin-left: 28%;
+    }
+
+    #compra .subtitulo h3 {
+        margin-left: 33%;
+    }
+
+    #compra .subtitulo .marcacao {
+        font-style: italic;
+        padding-top: 15px;
+        text-shadow: 0px 3px 20px #363120ad;
+    }
+
+    #devolucao .titulo .t1 {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    #devolucao .titulo .t2 {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    #devolucao .paragrafo {
+        margin-left: 32%;
+    }
+
+    #devolucao .botao {
+        width: 20%;
+        margin-left: 40%;
+     }
+
+     #compras .titulo {
+         width: 30%;
+         margin-left: 35%;
+     }
+
+     #compras .imagem {
+         width: 50%;
+         margin-left: 25%;
+     }
+
+     #compras .conteudo1 .t1 {
+         width: 30%;
+         margin-left: 33%;
+     }
+
+     #compras .conteudo1 .t2 {
+         width: 30%;
+         margin-left: 33%;
+     }
+
+     #compras .conteudo1 .t4  {
+         font-size: 30px;
+         height: 80px;
+         border-radius: 6px;
+         text-shadow: 0px 3px 20px #363120ad;
+     }
+     
+     #compras .botao {
+         width: 30%;
+         margin-left: 35%;
+     }
+
+/*//NOTEBOOK*/
+
+
 /*MAC OS*/
 
 @media only screen and (min-width: 1800px) {
