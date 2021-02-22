@@ -1,4 +1,11 @@
-
+    body p {
+        
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    
+    
     /*CTA*/
     
     #cta {
@@ -372,7 +379,6 @@
         height: 50px;
         padding-top: 7px;
         width: 80%;
-        box-shadow: 1px 1px 1px #000;
         margin-left: 10%;
     
     }
@@ -384,7 +390,6 @@
         height: 50px;
         padding-top: 7px;
         width: 80%;
-        box-shadow: 1px 1px 1px #000;
         margin-left: 10%;
     }
     
@@ -394,8 +399,7 @@
         font-size: 16px;
         height: 50px;
         padding-top: 7px;
-        width: 80%;
-        box-shadow: 1px 1px 1px #000;
+        width: 80%;  
         margin-left: 10%;
     }
     
@@ -406,7 +410,6 @@
         height: 40px;
         padding-top: 7px;
         width: 80%;
-        box-shadow: 1px 1px 1px #000;
         margin-left: 10%;
     }
     
@@ -1301,61 +1304,86 @@
 
 @media only screen and (min-width: 1800px) {
 
+    #cta .texto {
+        margin-left: 40%;
+    }
+
+    #cta .botao {
+        margin-left: 45%;
+    }
+
     #cta .imagem {
         width: 80%;
     }
 
+    #apresentacao {
+        background-size: cover;
+    }
+
     #apresentacao .texto .t1 {
         width: 40%;
-        margin-left: 50%;
+        margin-left: 55%;
+        text-shadow: 0px 3px 20px #363120ad;
     }
 
     #apresentacao .texto .t2 {
         width: 40%;
-        margin-left: 50%;
+        margin-left: 55%;
+        text-shadow: 0px 3px 20px #363120ad;
     }
 
     #apresentacao .texto p {
-        margin-left: 53%;
+        margin-left: 50%;
+        text-shadow: 0px 3px 20px #e66f0f;
+        font-size: 18px;
+        max-width: 600px;
     }
 
     #apresentacao .imagem {
-        width: 30%;
-        margin-left: 0px;
+        width: 33%;
+        margin-left: 10%;
        
     }
 
     #what .titulo .t1 {
         width: 20%;
-        margin-left: 35%;
+        margin-left: 40%;
+        text-shadow: 0px 3px 20px #363120ad;
     }
 
     #what .titulo .t2 {
-            width: 17%;
-            margin-left: 36.5%;
+            width: 20%;
+            margin-left: 40%;
+            text-shadow: 0px 3px 20px #363120ad;
     }
 
-    #what .paragrafo {
-        margin-left: 20%;
+    #what .paragrafo p{
+        margin-left: 25%;
+        font-size: 18px;
+        max-width: 600px;
     }
 
     #what .botao {
         width: 15%;
-        margin-left: 37%;
+        margin-left: 42%;
+        text-shadow: 0px 3px 20px #363120ad;
     }
 
     #beneficios .titulo .t1 {
-        width: 25%;
-        margin-left: 37%;
+        width: 22%;
+        margin-left: 40%;
+        text-shadow: 0px 3px 20px #363120ad;
     }
 
     #beneficios .titulo .t2 {
-        width: 15%;
-        margin-left: 42%;
+        width: 22%;
+        margin-left: 40%;
+        text-shadow: 0px 1px 20px #363120ad;
     }
 
     #beneficios .mais h1 {
         font-size: 40px;
+        text-shadow: 0px 2px 2px #363120ad;
     }
 
     #beneficios .mais .m2 {
@@ -1365,137 +1393,175 @@
     #beneficios .botao {
         width: 15%;
         margin-left: 42%;
+        text-shadow: 0px 3px 20px #363120ad;
     }
 
     #beneficios .imagem {
-        width: 15%;
-        margin-left: 42%;
+        width: 24%;
+        margin-left: 38%;
     }
 
     #diferenciais .titulo .t1{
         width: 18%;
         margin-left: 40%;
+        text-shadow: 0px 1px 10px #363120ad;
     }
 
     #diferenciais .titulo .t2 {
-        width: 15%;
-        margin-left: 42%;
+        width: 18%;
+        margin-left: 40%;
+        text-shadow: 0px 1px 10px #363120ad;
     }
 
     #diferenciais .titulos1 .icones1 {
-        width: 55%;
-        margin-left: 20%;
+        width: 60%;
+        margin-left: 18%;
     }
 
     #diferenciais .titulos1 .tt1 {
-        width: 35%;
-        font-size: 20px;
-        margin-left: 30%;
+        width: 45%;
+        height: 40px;
+        font-size: 30px;
+        margin-left: 25%;
     }
 
     #diferenciais .titulos1 .tt2 {
-        width: 25%;
-        font-size: 20px;
-        margin-left: 35%;
+        width: 45%;
+        height: 40px;
+        font-size: 30px;
+        margin-left: 25%;
     }
 
     #diferenciais .paragrafo1 .p1 {
-        max-width: 300px;
-        margin-left: 27%;
+        margin-top: 20px;
+        max-width: 400px;
+        margin-left: 20%;
+        font-size: 18px;
+        font-style: italic;
     }
 
     #diferenciais .titulos2 .icones2 {
-        width: 55%;
-        margin-left: 20%;
+        width: 60%;
+        margin-left: 15%;
     }
 
     #diferenciais .titulos2 .tt3 {
-        width: 40%;
-        font-size: 20px;
-        margin-left: 30%;
+        width: 60%;
+        height: 40px;
+        font-size: 30px;
+        margin-left: 15%;
     }
 
     #diferenciais .titulos2 .tt4 {
-        width: 30%;
-        font-size: 20px;
-        margin-left: 35%;
+        width: 60%;
+        height: 40px;
+        font-size: 30px;
+        margin-left: 15%;
     }
 
     #diferenciais .paragrafo2 .p2 {
-        max-width: 300px;
-        margin-left: 30%;
+        max-width: 400px;
+        margin-left: 18%;
+        margin-top: 20px;
+        font-size: 18px;
+        font-style: italic;
     }
 
     #diferenciais .titulos3 .icones3 {
-        width: 55%;
+        width: 60%;
         margin-left: 20%;
     }
 
     #diferenciais .titulos3 .tt5 {
-        width: 35%;
-        font-size: 20px;
+        width: 45%;
+        height: 40px;
+        font-size: 30px;
         margin-left: 30%;
     }
 
     #diferenciais .titulos3 .tt6 {
-        width: 25%;
-        font-size: 20px;
-        margin-left: 35%;
+        width: 45%;
+        font-size: 30px;
+        height: 40px;
+        margin-left: 30%;
     }
 
     #diferenciais .paragrafo3 .p3 {
-        max-width: 200px;
+        max-width: 300px;
+        margin-top: 20px;
         margin-left: 33%;
+        font-size: 18px;
+        font-style: italic;
     }
 
     #resultados .titulo .t1 {
         width: 25%;
         margin-left: 38%;
+        text-shadow: 0px 3px 20px #363120ad;
     }
 
     #resultados .titulo .t2 {
-        width: 22%;
-        margin-left: 40%;
+        width: 25%;
+        margin-left: 38%;
         font-size: 40px;
+        text-shadow: 0px 3px 20px #363120ad;
     }
 
     #resultados .subtitulo {
         margin-left: 27%;
+        text-shadow: 0px 3px 80px #363120ad;
     }
 
     #resultados .conteudo .cont1 {
         width: 15%;
         margin-left: 43%;
+        border-radius: 6px;
+        font-size: 18px;
+        font-style: italic;
     }
 
     #resultados .conteudo .cont2 {
         width: 15%;
         margin-left: 43%;
+        border-radius: 6px;
+        font-size: 18px;
+        font-style: italic;
     }
 
     #resultados .conteudo .cont3 {
         width: 15%;
+        border-radius: 6px;
         margin-left: 43%;
+        font-size: 18px;
+        height: 60px;
+        font-style: italic;
     }
 
     #resultados .conteudo .cont4 {
         width: 15%;
         margin-left: 43%;
+        border-radius: 6px;
+        font-size: 18px;
     }
 
     #resultados .botao {
-        width: 15%;
-        margin-left: 43%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 10%;
+        margin-left: 45%;
+        border-radius: 6px;
     }
 
     #clientes .titulo .t1 {
-        width: 25%;
-        margin-left: 37%;
+        width: 20%;
+        margin-left: 40%;
+        text-shadow: 0px 3px 20px #363120ad;
     }
     
     #clientes .titulo .t2 {
         width: 20%;
         margin-left: 40%;
+        text-shadow: 0px 3px 20px #363120ad;
     }
 
     #clientes .card {
@@ -1526,7 +1592,9 @@
     }
 
     #especial .paragrafo {
-        margin-left: 29%;
+        margin-left: 30%;
+        font-size: 1;
+        font-size: 18px;
     }
 
     #compra .titulo .t1 {
@@ -1535,20 +1603,23 @@
     }
 
     #compra .subtitulo h3 {
-        margin-left: 40%;
-        max-width: 400px;
+        margin-left: 36%;
+        max-width: 600px;
     }
 
     #compra .subtitulo .marcacao {
-        width: 15%;
-        height: 60px;
-        margin-left: 42%;
+        width: 28%;
+        height: 45px;
+        padding-top: 10px;
+        margin-left: 35%;
         font-size: 20px;
+        text-shadow: 0px 1px 20px #363120ad;
+        font-style: italic;
     }
 
     #compra .imagem {
-        width: 13%;
-        margin-left: 43%;
+        width: 18%;
+        margin-left: 40%;
     }
 
     #devolucao .titulo .t1 {
@@ -1562,7 +1633,8 @@
     }
 
     #devolucao .paragrafo {
-        margin-left: 38%;
+        margin-left: 39%;
+        font-size: 16px;
     }
     
     #devolucao .botao{
