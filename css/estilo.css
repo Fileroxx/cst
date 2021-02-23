@@ -679,6 +679,82 @@
 /*//CELULAR MEDIO*/
 
 
+/*IPHONE 11*/
+@media only screen and (min-width: 414px) {
+#beneficios .mais {
+    font-style: italic;
+}
+
+#beneficios .titulo .t1 {
+    width: 85%;
+    margin-left: 10%;
+    height: 50px;
+}
+
+#beneficios .titulo .t2 {
+    width: 85%;
+    margin-left: 10%;
+}
+
+#resultados .conteudo .cont1 {
+    border-radius: 6px;
+    padding-top: 14px;
+    font-style: italic;
+}
+
+#resultados .conteudo .cont2 {
+    border-radius: 6px;
+    padding-top: 14px;
+    font-style: italic;
+}
+
+#resultados .conteudo .cont3 {
+    border-radius: 6px;
+    padding-top: 7px;
+    font-style: italic;
+}
+
+#resultados .conteudo .cont4 {
+    border-radius: 6px;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+#resultados .botao {
+    border-radius: 6px;
+    width: 75%;
+    margin-left: 12%;
+}
+
+#compra .subtitulo .marcacao {
+    font-style: italic;
+    border-radius: 6px;
+}
+
+#clientes .card {
+    margin-left: 45px;
+}
+
+#compras .imagem {
+    margin-left: 10%;
+}
+
+
+#compras .botao {
+    width: 75%;
+    height: 50px;
+    padding-top: 10px;
+    margin-left: 13%;
+    font-family: 'Alfa Slab One', sans-serif;
+}
+
+#compras .botao h1 {
+    font-size: 20px;
+}
+
+}
+/*//IPHONE 11*/
+
 /*TABLET*/
 @media only screen and (min-width: 768px) {
 
@@ -969,11 +1045,6 @@
        width: 90%;
        height: 80px;
        margin-left: 30px;
-   }
-
-   #compras .botao {
-       width: 50%;
-       margin-left: 25%;
    }
 
 }
