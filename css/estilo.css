@@ -1194,6 +1194,235 @@
 }
 /*//LAPTOP*/
 
+
+/*MAC PRO*/
+
+
+
+/*//MAC PRO*/
+@media only screen and (min-width: 1280px) {
+  
+    #cta .botao {
+        margin-bottom: 20%;
+    }
+
+    #apresentacao .imagem {
+       width: 60%;
+       margin-top: 30px;
+       margin-left: 20%;
+    }
+    
+    #what .paragrafo {
+        margin-left: 15%;
+    }
+
+    #beneficios .titulo .t1 {
+        width: 45%;
+        margin-left: 25%;
+    }
+
+    #beneficios .titulo .t2{
+        width: 45%;
+    }
+
+    #beneficios .mais h1 {
+        font-size: 60px;
+    }
+
+    #beneficios .mais .m2{
+        margin-left: 7%;
+    }
+
+    #beneficios .mais .m3{
+        margin-left: 10px;
+    }
+
+    #beneficios .mais .m4{
+        margin-right: 21%;
+    }
+
+    #beneficios .botao {
+        width: 30%;
+        margin-left: 33%;
+    }
+    
+    #beneficios .imagem {
+        width: 35%;
+    }
+
+    #diferenciais .titulo .t1 {
+        width: 35%;
+        margin-left: 30%;
+    }
+
+    #diferenciais .titulo .t2 {
+        width: 35%;
+        margin-left: 30%;
+    }
+
+    #diferenciais .titulos1 .tt1 {
+        font-size: 30px;
+        height: 40px;
+    }
+
+
+    #diferenciais .titulos1 .tt2 {
+        font-size: 30px;
+        height: 40px;
+    }
+
+    #diferenciais .titulos2 .tt3 {
+        font-size: 25px;
+        height: 40px;
+        width: 100%;
+    }
+
+
+    #diferenciais .titulos2 .tt4 {
+        font-size: 25px;
+        height: 40px;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #diferenciais .titulos3 .tt5 {
+        font-size: 30px;
+        width: 80%;
+        height: 40px;
+    }
+
+    #diferenciais .titulos3 .tt6 {
+        font-size: 30px;
+        width: 80%;
+        height: 40px;
+        margin-left: 15%;
+    }
+
+    #diferenciais .paragrafo3 p {
+        max-width: 200px;
+        margin-left: 28%;
+    }
+
+    #resultados .titulo .t1{
+        width: 45%;
+        margin-left: 28%;
+    }
+    
+    #resultados .titulo .t2 {
+        width: 45%;
+        font-size: 40px;
+        margin-left: 28%;
+    }
+
+    #resultados .subtitulo {
+        margin-left: 20%;
+    }
+
+    #resultados .conteudo .cont1{
+
+    font-size: 30px;
+    width: 50%;
+    height: 60px;
+    margin-left: 25%;
+    }
+
+    #resultados .conteudo .cont2{
+
+        font-size: 30px;
+        width: 50%;
+        height: 60px;
+        margin-left: 25%;
+        }
+
+     #resultados .conteudo .cont3{
+
+            font-size: 30px;
+            width: 50%;
+            height: 85px;
+            margin-left: 25%;
+     }
+
+     #resultados .conteudo .cont4{
+
+        font-size: 30px;
+        width: 50%;
+        height: 60px;
+        margin-left: 25%;
+        }
+
+        #clientes  .titulo .t1 {
+            width: 40%;
+            margin-left: 30%;
+        }
+
+        #clientes  .titulo .t2 {
+            width: 40%;
+            margin-left: 30%;
+        }
+
+        #especial .titulo .t1 {
+            width: 30%;
+            margin-left: 35%;
+        }
+
+        #especial .titulo2 {
+            width: 30%;
+            margin-left: 35%;
+        }
+
+        #especial .paragrafo {
+            margin-left: 18%;
+            
+        }
+
+        #compra .titulo .t1 {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #compra .subtitulo h3 {
+            margin-left: 30%;
+        }
+        
+        #compra .subtitulo .marcacao {
+            padding-top: 14px;
+        }
+
+        #devolucao .paragrafo {
+            margin-left: 30%;
+        }
+        
+        #compras .titulo {
+            width: 40%;
+            margin-left: 27%;
+        }
+
+        #compras .imagem {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #compras .conteudo1 .t1{
+            width: 40%;
+            margin-left: 27%;
+        }
+        
+        #compras .conteudo1 .t2 {
+            width: 40%;
+            margin-left: 27%;
+        }
+
+        #compras .conteudo1 .t3{
+            margin-right: 5%;
+        }
+
+        #compras .conteudo1 .t4 {
+            font-size: 20px;
+            height: 60px;
+        }
+
+    
+}
 /*COMPUTADORES*/
 @media only screen and (min-width: 1440px) {
     #cta .botao {
