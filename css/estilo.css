@@ -1636,7 +1636,7 @@
     }
 
     #what .paragrafo p {
-        margin-left: 19%;
+        margin-left: 15%;
         max-width: 600px;
     }
 
@@ -1671,6 +1671,11 @@
     #beneficios .botao {
         width: 20%;
         margin-left: 40%;
+    }
+
+    #beneficios .imagem{
+        margin-left: 33%;
+    
     }
 
     #diferenciais .titulo .t1 {
@@ -1744,30 +1749,30 @@
     }
 
     #resultados .conteudo .cont1 {
-        width: 30%;
+        width: 40%;
         border-radius: 6px;
-        margin-left: 35%;
+        margin-left: 30%;
         font-style: italic;
     }
 
     #resultados .conteudo .cont2 {
-        width: 30%;
+        width: 40%;
         border-radius: 6px;
-        margin-left: 35%;
+        margin-left: 30%;
         font-style: italic;
     }
 
     #resultados .conteudo .cont3 {
-        width: 30%;
+        width: 40%;
         border-radius: 6px;
-        margin-left: 35%;
+        margin-left: 30%;
         font-style: italic;
     }
     
     #resultados .conteudo .cont4 {
-        width: 30%;
+        width: 40%;
         border-radius: 6px;
-        margin-left: 35%;
+        margin-left: 30%;
         font-style: italic;
     }
 
