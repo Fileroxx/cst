@@ -1,94 +1,100 @@
+
     body p {
         
-        font-weight: bold;
+        font-weight: 400;
         font-style: normal;
+        text-align: justify;
     }
     
     
-    
-    /*CTA*/
-    
-    #cta {
-        background: url('../img/hero1/background.png') no-repeat center center;
-        background-position: fixed;
-        background-size: cover;
-    }
-    
-    #cta .texto {
-        padding-top: 30px;
-        text-align: center;
-        color: #fff;
-        width: 60%;
-        margin-left: 20%;
-    }
-    
-    #cta .texto h1 {
-        text-align: center;
-        font-size: 25px;
-        font-family: 'Alfa Slab One', sans-serif;
-    }
-    
-    #cta .botao {
-        background: #e66f0f;
-        margin-left: 20%;
-        padding-top: 7px;
-        width: 60%;
-        height: 40px;
-        cursor: pointer;
-        box-shadow: 1px 1px 1px #000;
-        border-radius: 4px;
+
+        /*CTA*/
         
-    }
-    
-    
-    
-    #cta .botao p { 
-        text-align: center;
-        font-family: 'Alfa Slab One', sans-serif;
-        color: rgba(255,255,255,0.9);
+        #cta {
+            background: url('../img/hero1/background.png') no-repeat center center;
+            background-size: cover;
+        }
         
-    }
+        #cta .texto {
+            padding-top: 30px;
+            text-align: justify;
+            color: #fff;
+            width: 60%;
+            width: 100%;
+        }
+        
+        #cta .texto h1 {
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Alfa Slab One', sans-serif;
+        }
+        
+        #cta .botao {
+            background: #e66f0f;
+            margin-left: 20%;
+            padding-top: 7px;
+            width: 60%;
+            height: 40px;
+            cursor: pointer;
+            box-shadow: 1px 1px 1px #000;
+            border-radius: 4px;
+            
+        }
+        
+        
+        
+        #cta .botao p { 
+            text-align: center;
+            font-family: 'Alfa Slab One', sans-serif;
+            color: rgba(255,255,255,0.9);
+            
+        }
+        
+        #cta .imagem img {
+            max-width: 100%;
+            margin-left: 10px;
+            margin-bottom: 30px;
+        }
+        /*//CTA*/
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /*APRESENTAÇÃO*/
+        
+        #apresentacao {
+            
+            background: url('../img/section1/background2.png') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            
+        }
+        
+        #apresentacao .texto {
+            color: #fff;
+            margin-top: 30px;
+            width: 100%;
+            text-align: justify;
+        }
+        
+        #apresentacao .texto p {
+            font-weight: 500;
+        }
+        
+        #apresentacao .texto h1 {
     
-    #cta .imagem img {
-        max-width: 100%;
-        margin-left: 10px;
-        margin-bottom: 30px;
-    }
-    /*//CTA*/
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /*APRESENTAÇÃO*/
-    
-    #apresentacao {
-    
-        background: url('../img/section1/background2.png') no-repeat center center;
-        background-size: cover;
-        display: flex;
-    
-    }
-    
-    #apresentacao .texto {
-        text-align: center;
-        color: #fff;
-        margin-top: 30px;
-    }
-    
-    #apresentacao .texto h1 {
-        background:#3caa7f;
-        z-index: 9999;
+        background:#3caa7f;;
         font-family: 'Alfa Slab One', sans-serif;
     }
     
@@ -129,35 +135,36 @@
     }
     
     #what .texto .t1{
-        margin-left: 20%;
+        margin-left: 5%;
         background-color: #680ca9;
-        width: 60%;
+        width: 90%;
         font-family: 'Alfa Slab One', sans-serif;
     }
     
     #what .texto .t2{
-        margin-left: 10%;
+        margin-left: 5%;
         background-color: #680ca9;
-        width: 80%;
+        width: 90%;
         font-family: 'Alfa Slab One', sans-serif;
     }
     
     #what .texto p {
-        text-align: center;
+        text-align: justify;
         color: #fff;
         margin-top: 30px;
+        font-weight: 500;
+        
     }
     
     #what .botao {
         padding-top: 7px;
         cursor: pointer;
         height: 40px;
-        margin-left: 20%;
         text-align: center;
         background-color: #680ca9;
         color: #fff;
         font-family: 'Alfa Slab One', sans-serif;
-        width: 60%;
+        width: 70%;
         border-radius: 4px;
         box-shadow: 1px 1px 1px #000;
     }
@@ -188,14 +195,15 @@
         background-color: #1261f2;
         font-size: 18px;
         height: 40px;
+        width: 100%;
     }
     
     #beneficios .titulo .t2{ 
         background-color: #1261f2;
-        padding-bottom: 10px;
+        
         font-size: 18px;
-        width: 65%;
-        margin-left: 55px;
+        width: 100%;
+
     }
     
     #beneficios .titulo h1 {
@@ -214,7 +222,6 @@
         border-radius: 4px;
         box-shadow: 1px 1px 1px #000;
         padding-top: 7px;
-        margin-left: 20%;
         width: 60%;
         cursor: pointer;
         
@@ -224,13 +231,15 @@
         margin-top: 30px;
         font-family: 'Alfa Slab One', sans-serif;
         align-items: center;
-        text-align: center;
+        text-align: justify;
     
     }
     
     #beneficios .imagem img {
         max-width: 80%;
     }
+
+
     /*//BENEFÍCIOS*/
     
     
@@ -255,15 +264,17 @@
     #diferenciais .titulo .t1 {
         background-color: #e66f0f;
         font-family: 'Alfa Slab One', sans-serif;
-        width: 70%;
-        margin-left: 50px;
+        width: 100%;
+        font-size: 30px;
+
     }
     
     #diferenciais .titulo .t2 {
         background-color: #e66f0f;
         font-family: 'Alfa Slab One', sans-serif;
-        width: 70%;
-        margin-left: 50px;
+        width: 100%;
+        font-size: 30px;
+       
     }
     
     
@@ -275,8 +286,7 @@
         font-size: 18px;
         height: 30px;
         padding-top: 4px;
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
     }
     
     #diferenciais .titulos1 .tt2 {
@@ -284,8 +294,7 @@
         background: #13d66a;
         font-family: 'Alfa Slab One', sans-serif;
         font-size: 18px;
-        width: 60%;
-        margin-left: 20%;
+        width: 100%;
         height: 30px;
         padding-top: 4px;
     }
@@ -296,7 +305,7 @@
         font-size: 18px;
         height: 30px;
         padding-top: 4px;
-        width: 95%;
+        width: 100%;
     }
     
     #diferenciais .titulos2 .tt4 {
@@ -305,8 +314,8 @@
         font-size: 18px;
         height: 30px;
         padding-top: 4px;
-        width: 60%;
-        margin-left: 20%;
+        width: 100%;
+        
     }
     
     #diferenciais .titulos3 .tt5 {
@@ -315,8 +324,7 @@
         font-size: 18px;
         height: 30px;
         padding-top: 4px;
-        width: 70%;
-        margin-left: 15%;
+        width: 100%;
     }
     
     #diferenciais .titulos3 .tt6 {
@@ -325,8 +333,7 @@
         font-size: 18px;
         height: 30px;
         padding-top: 4px;
-        width: 45%;
-        margin-left: 25%;
+        width: 100%;
     }
     
     #diferenciais img {
@@ -353,73 +360,78 @@
     }
     
     #resultados .titulo .t1 {
-        background-color: #13d66a;
+        background-color: #3caa7f;
         font-family: 'Alfa Slab One', sans-serif;
         width: 100%;
-        font-size: 22px;
+        font-size: 23px;
     }
     
     #resultados .titulo .t2 {
-        background-color: #13d66a;
+        background-color: #3caa7f;
         font-family: 'Alfa Slab One', sans-serif;
         width: 100%;
-        font-size: 22px;
+        font-size: 23px;
     }
     
     #resultados .subtitulo h3 {
-        font-size: 20px;
+        font-size: 18px;
         color: #fff;
-        font-family: 'Alfa Slab One', sans-serif;
+        max-width: 400px;
+        font-weight: 500;
+        
     }
     
     #resultados .conteudo .cont1 {
         background-color: #3c44a9;
-        font-family: 'Alfa Slab One', sans-serif;
+      
         font-size: 16px;
         height: 50px;
-        padding-top: 7px;
-        width: 80%;
-        margin-left: 10%;
+        padding-top: 15px;
+        width: 100%;
+        font-weight: 900;
+        border-radius: 10px;
     
     }
     
     #resultados .conteudo .cont2 {
         background-color: #3c44a9;
-        font-family: 'Alfa Slab One', sans-serif;
         font-size: 16px;
         height: 50px;
-        padding-top: 7px;
-        width: 80%;
-        margin-left: 10%;
+        padding-top: 15px;
+        width: 100%;
+        font-weight: 900;
+        border-radius: 10px;
     }
     
     #resultados .conteudo .cont3 {
         background-color: #3c44a9;
-        font-family: 'Alfa Slab One', sans-serif;
         font-size: 16px;
         height: 50px;
         padding-top: 7px;
-        width: 80%;  
-        margin-left: 10%;
+        width: 100%;  
+        font-weight: 900;
+        border-radius: 10px;
     }
     
     #resultados .conteudo .cont4 {
         background-color: #3c44a9;
-        font-family: 'Alfa Slab One', sans-serif;
         font-size: 16px;
         height: 40px;
-        padding-top: 7px;
-        width: 80%;
-        margin-left: 10%;
+        padding-top: 10px;
+        width: 100%;
+        font-weight: 900;
+        border-radius: 10px;
     }
     
     #resultados .botao {
         border: 1px solid #fff;
-        width: 60%;
-        padding-top: 12px;
-        border-radius: 4px;
-        margin-left: 20%;
+        width: 70%;
+        height: 40px;
+        padding-top: 8px;
+        padding-left: 18px;
+        border-radius: 10px;
         font-family: 'Alfa Slab One', sans-serif;
+        margin-left: 15%;
       
     
     }
@@ -463,11 +475,12 @@
     
     #clientes .card {
         margin-top: 30px;
-        border: nones;
+        border: none;
     }
 
     #clientes .card-body{
         background-color: #e66f0f;
+        border: none;
     }
     
     #clientes .card-body .card-title {
@@ -533,7 +546,7 @@
     }
 
     #compra .subtitulo h3 {
-        font-weight: 700;
+        font-weight: 500;
     }
 
     #compra .subtitulo .marcacao {
@@ -567,14 +580,16 @@
    
    #devolucao .titulo .t1 {
        background: #1261f2;
-       width: 70%;
-       margin-left: 15%;
+       width: 100%;
+   }
+
+   #devolucao .paragrafo .p1, .p2{
+       text-align: center;
    }
 
    #devolucao .titulo .t2 {
     background: #1261f2;
-    width: 60%;
-    margin-left: 20%;
+    width: 100%;
 }
 
     #devolucao .botao {
@@ -584,8 +599,9 @@
         border-radius: 4px;
         box-shadow: 1px 1px 1px #000;
         padding-top: 7px;
-        margin-left: 20%;
-        width: 60%;
+        padding-left: 20px;
+        margin-left: 15%;
+        width: 70%;
         cursor: pointer;
         
     }
@@ -603,35 +619,36 @@
     #compras .titulo {
         background: #3caa7f;
         font-family: 'Alfa Slab One', sans-serif;
-        width: 90%;
-        margin-left: 15px;
+        width: 100%;
 
     } 
 
     #compras .conteudo1 .t1 {
-        font-family: 'Alfa Slab One', sans-serif;
         background: #3caa7f;
-        width: 90%;
-        margin-left: 20px;
+        width: 100%;
+        height: 40px;
+        font-weight: 900;
+        padding-top: 8px;
     }
     #compras .conteudo1 .t2 {
-        font-family: 'Alfa Slab One', sans-serif;
         background: #ae3e3e;
-        width: 95%;
-        margin-left: 10px;
+        width: 100%;
+        font-size: 25px;
+        font-weight: 300;
     }
     #compras .conteudo1 span {
-        font-size: 35px;
+        font-size: 30px;
+        font-weight: 700;
     }
 
     #compras .conteudo1 .t3 {
-        font-family: 'Alfa Slab One', sans-serif;
+        font-weight: 900;
     }
 
     #compras .conteudo1 .t4 {
     
-        font-family: 'Alfa Slab One', sans-serif;
         font-size: 14px;
+        font-weight: 400;
         background: #ae3e3e;
         width: 97%;
         height: 40px;
@@ -642,12 +659,17 @@
     #compras .botao {
 
         border: 2px solid #fff;
-        width: 90%;
-        padding-top: 4px;
-        margin-left: 15px;
-        border-radius: 4px;
+        width: 70%;
+        height: 40px;
+        padding-top: 6px;
+        padding-left: 18px;
+        margin-left: 15%;
+        border-radius: 8px;
+        font-family: 'Alfa Slab One', sans-serif;
         
     }
+
+    
 
     #compras .botao:hover {
         cursor: pointer;
@@ -658,1627 +680,105 @@
    /*//COMPRAS*/
 
 
-/*MEDIAS QUERIES*/
-
-/*CELULAR MENOR*/
-   @media only screen and (min-width: 375px) {
-    #clientes .card {
-        margin-left: 20px;
-    }
+   @media screen and (min-width: 320px) {
     
-    }
-/*//CELULAR MENOR*/
 
+    #apresentacao .texto .t1 {
+        text-align: center;
+    }   
 
-/*CELULAR MEDIO*/
-@media only screen and (min-width: 425px) { 
-    #clientes .card {
-        margin-left: 40px;
-    }
-}
-/*//CELULAR MEDIO*/
-
-
-/*IPHONE 11*/
-@media only screen and (min-width: 414px) {
-#beneficios .mais {
-    font-style: italic;
-}
-
-#beneficios .titulo .t1 {
-    width: 85%;
-    margin-left: 10%;
-    height: 50px;
-}
-
-#beneficios .titulo .t2 {
-    width: 85%;
-    margin-left: 10%;
-}
-
-#resultados .conteudo .cont1 {
-    border-radius: 6px;
-    padding-top: 14px;
-    font-style: italic;
-}
-
-#resultados .conteudo .cont2 {
-    border-radius: 6px;
-    padding-top: 14px;
-    font-style: italic;
-}
-
-#resultados .conteudo .cont3 {
-    border-radius: 6px;
-    padding-top: 7px;
-    font-style: italic;
-}
-
-#resultados .conteudo .cont4 {
-    border-radius: 6px;
-    padding-top: 10px;
-    font-style: italic;
-}
-
-#resultados .botao {
-    border-radius: 6px;
-    width: 75%;
-    margin-left: 12%;
-}
-
-#compra .subtitulo .marcacao {
-    font-style: italic;
-    border-radius: 6px;
-}
-
-#clientes .card {
-    margin-left: 45px;
-}
-
-#compras .imagem {
-    margin-left: 10%;
-}
-
-
-#compras .botao {
-    width: 75%;
-    height: 50px;
-    padding-top: 10px;
-    margin-left: 13%;
-    font-family: 'Alfa Slab One', sans-serif;
-}
-
-#compras .botao h1 {
-    font-size: 20px;
-}
-
-}
-/*//IPHONE 11*/
-
-/*TABLET*/
-@media only screen and (min-width: 768px) {
-
-    #apresentacao .imagem {
-        margin-top: 50px;
-    }
-
-    #what .texto  p {
-        max-width: 400px;
-        margin-left: 20%;
-    }
-    
-    #what .texto .t1 {
-        width: 55%;
-    }
-    
-    #what .texto .t2 {
-        width: 50%;
-        margin-left: 23%;
+    #apresentacao .texto .t2 {
+        height: 30px;
+        text-align: center;
     }
 
     #what .botao {
-        width: 40%;
-        margin-left: 28%;
-    }
-
-    #beneficios .titulo .t2 {
-      max-width: 45%;
-      margin-left: 28%;
-      height: 55px;
-      padding-bottom: 10px;
-      font-size: 30px;
+        padding-left: 20px;
+        margin-left: 15%;
     }
 
     #beneficios .titulo .t1 {
-        width: 70%;
-        margin-left: 15%;
-        font-size: 30px;
-        height: 60px;
+        height: 40px;
     }
 
-    #beneficios .mais h1 {
-        font-size: 50px;
+    #beneficios .titulo .t2 {
+        height: 40px;
     }
 
     #beneficios .mais {
-        margin-left: 100px;
-        margin-top: 60px;
-        margin-bottom: 40px;
-    }
-
-    #beneficios .mais .m1 {
-        margin-right: 190px;
-    }
-   
-    #beneficios .mais .m2 {
-       
-    }
-
-    #beneficios .mais .m3 {
-        margin-right: 110px;
-    }
-
-    #beneficios .mais .m4 {
-        margin-right: 180px;
+        margin-left: 20%;
     }
 
     #beneficios .botao {
-        max-width: 40%;
-        margin-left: 30%;
+        width: 65%;
+        padding-left: 10px;
+        margin-left: 15%;
     }
     
-    #beneficios .imagem {
-        max-width: 60%;
-        margin-left: 20%;
+
+}
+
+
+
+@media screen and (min-width: 375px) {
+    #what .botao {
+        padding-left: 40px;
     }
 
-    #diferenciais .titulo .t1{
-        width: 60%;
-        font-size: 40px;
-        margin-left: 20%;
-    }
-
-    #diferenciais .titulo .t2 {
-        width: 50%;
-        margin-left: 25%;
-        font-size: 40px;
-    }
-
-    #diferenciais .titulos1 .tt1 {
-        font-size: 14px;
-    }
-
-    #diferenciais .titulos1 .tt2 {
-        font-size: 16px;
-    }
-
-    #diferenciais .titulos2 .tt3 {
-        font-size: 14px;
-    }
-
-    #diferenciais .titulos2 .tt4 {
-        font-size: 14px;
-        margin-right: 30px;
-    }
-    
-    #diferenciais .titulos3 .tt5 {
-        font-size: 14px;
-    }
-
-    #diferenciais .titulos3 .tt6 {
-        font-size: 14px;
-    }
-
-    #resultados .titulo .t1 {
-        width: 80%;
-        font-size: 40px;
-        margin-left: 10%;
-    }
-
-    #resultados .titulo .t2 {
-        width: 60%;
-        font-size: 30px;
-        margin-left: 20%;
-    }
-
-    #resultados .subtitulo h3 {
-        max-width: 400px;
-        margin-left: 20%;
-        margin-top: 30px;
-    
-    }
-
-    #resultados .conteudo .cont1 {
-        width: 40%;
-        margin-left: 30%;
-        padding-top: 14px;
-    }
-
-    #resultados .conteudo .cont2 {
-        width: 40%;
-        margin-left: 30%;
-        padding-top: 14px;
-    }
-
-    #resultados .conteudo .cont3 {
-        width: 40%;
-        margin-left: 30%;
-    }
-    
-    #resultados .conteudo .cont4 {
-        width: 40%;
-        margin-left: 30%;
+    #beneficios .botao {
+        padding-left: 30px;
     }
 
     #resultados .botao {
-        width: 40%;
-        margin-left: 30%;
-    }
-
-    #clientes .titulo .t1 {
-        width: 60%;
-        height: 60px;
-        font-size: 40px;
-        margin-left: 20%;
-    }
-
-    #clientes .titulo .t2 {
-        width: 60%;
-        height: 60px;
-        font-size: 35px;
-        margin-left: 20%;
-        margin-bottom: 30px;
+        padding-left: 40px;
     }
 
     #clientes .card {
-
-        margin: 0;
-        padding: 0;
-        display: inline;
-    }
-
-    #especial .titulo {
-        font-size: 40px;
-    }
-
-    #especial .titulo .t1{
-        font-size: 40px;
-        width: 50%;
-        margin-left: 25%;
-        margin-bottom: 20px;
-    }
-
-    #especial .titulo2 {
-        width: 40%;
-        font-size: 30px;
-        margin-left: 30%;
-    }
-    
-    
-    #especial .paragrafo p {
-        max-width: 500px;
-        margin-left: 15%;
-    }
-    
-    #compra .titulo{
-        font-size: 40px;
-    }
-
-    #compra .titulo .t1 {
-        width: 80%;
-        font-size: 40px;
-        height: 60px;
-        margin-left: 10%;
-    }
-
-    #compra .subtitulo h3 {
-        margin-top: 30px;
-        max-width: 450px;
-        margin-bottom: 20px;
-        margin-left: 20%;
-        font-size: 30px;
-    }
-
-    #compra .subtitulo .marcacao {
-        width: 80%;
-        height: 70px;
-        box-shadow: 1px 1px 1px #000;
-        font-size: 25px;
-        margin-left: 10%;
-    }
-
-    #compra .imagem {
-        width: 40%;
-        margin-left: 30%;
-    }
-
-    #devolucao .titulo .t1 {
-        width: 45%;
-        font-size: 40px;
-        margin-left: 30%;
-    }
-
-    #devolucao .titulo .t2 {
-        width: 33%;
-        font-size: 35px;
-        margin-left: 36%;
-    }
-    
-   #devolucao .paragrafo {
-       max-width: 500px;
-       margin-left: 15%;
-   }
-
-   #devolucao .botao {
-       width: 40%;
-       margin-left: 30%;
-   }
-
-   #compras .titulo {
-       width: 50%;
-       font-size: 40px;
-       margin-left: 25%;
-   }
-
-   #compras .imagem {
-       width: 70%;
-       margin-left: 20%;
-   }
-
-   #compras .conteudo1 .t1 {
-       width: 60%;
-       font-size: 30px;
-       margin-left: 20%;
-   }
-    
-   #compras .conteudo1 .t2 {
-       width: 70%;
-       margin-left: 15%;
-   }
-
-   #compras .conteudo1 .t3 {
-       font-size: 20px;
-   }
-
-   #compras .conteudo1 .t4 {
-       font-size: 30px;
-       width: 90%;
-       height: 80px;
-       margin-left: 30px;
-   }
-
-}
-/*//TABLET*/
-
-/*LAPTOP*/
-@media only screen and (min-width: 1024px) {
-   #cta .texto .t1 {
-       font-size: 40px;
-   }
-
-   #cta .texto .t2 {
-       font-size: 40px;
-   }
-
-   #cta .texto .t3 {
-       font-size: 40px;
-   }
-
-   #apresentacao .imagem {
-       width: 70%;
-   }
-
-   #what .paragrafo {
-       margin-left: 10%;
-   }
-
-   #what .botao {
-       width: 30%;
-       margin-left: 33%;
-   }
-
-   #beneficios .titulo .t1 {
-       margin-top: 30px;
-       width: 55%;
-       margin-left: 20%;
-   }
-
-   #beneficios .titulo .t2 {
-       width: 55%;
-       margin-left: 25%;
-   }
-
-   #beneficios .mais h1 {
-       font-size: 35px;
-   }
-
-   #beneficios .mais .m2{
-       margin-right: 60px;
-   }
-
-   #beneficios .mais .m3 {
-       margin-right: 140px;
-   }
-   
-   #beneficios .mais .m4 {
-        margin-right: 195px;
-
-   }
-   
-   #beneficios .botao {
-       width: 30%;
-       margin-left: 35%;
-   }
-
-   #beneficios .imagem {
-       max-width: 40%;
-       margin-left: 30%;
-   }
-
-   #resultados .titulo .t1 {
-       width: 60%;
-       margin-left: 20%;
-   }
-
-   #resultados .titulo .t2 {
-       width: 50%;
-       margin-left: 25%;
-   }
-
-   #resultados .subtitulo {
-       margin-left: 10%;
-   }
-
-   #resultados .botao {
-       width: 30%;
-       margin-left: 35%;
-   }
-
-   #especial .paragrafo {
-       margin-left: 10%;
-   }
-
-   #compra .titulo .t1 {
-       width: 60%;
-       margin-left: 20%;
-   }
-
-   #compra .subtitulo h3 {
-       font-size: 25px;
-       margin-left: 25%;
-   }
-
-   #compra .subtitulo .marcacao {
-       width: 60%;
-       margin-left: 20%;
-       margin-bottom: 20px;
-   }
-
-   #devolucao .paragrafo {
-       margin-left: 25%;
-   }
-
-   #devolucao .botao {
-       width: 30%;
-       margin-left: 35%;
-   }
-
-    #compras .imagem {
-        width: 60%;
-    }
-
-    #compras .conteudo1 .t1 {
-        width: 50%;
-        margin-left: 23%;
-    }
-    
-    #compras .conteudo1 .t2 {
-        width: 60%;
-        margin-left: 18%;
-    }
-
-    #compras .conteudo1 .t3 {
-      margin-right: 20px;
-    }
-
-    #compras .conteudo1 .t4 {
-        width: 60%;
-        height: 118px;
-        margin-left: 18%;
-    }
-
-    #compras .botao {
-        width: 40%;
-        margin-left: 28%;
-    }
-}
-/*//LAPTOP*/
-
-
-/*MAC PRO*/
-
-
-
-/*//MAC PRO*/
-@media only screen and (min-width: 1280px) {
-  
-    #cta .botao {
-        margin-bottom: 20%;
-    }
-
-    #apresentacao .imagem {
-       width: 60%;
-       margin-top: 30px;
-       margin-left: 20%;
-    }
-    
-    #what .paragrafo {
-        margin-left: 15%;
-    }
-
-    #beneficios .titulo .t1 {
-        width: 45%;
-        margin-left: 25%;
-    }
-
-    #beneficios .titulo .t2{
-        width: 45%;
-    }
-
-    #beneficios .mais h1 {
-        font-size: 60px;
-    }
-
-    #beneficios .mais .m2{
-        margin-left: 7%;
-    }
-
-    #beneficios .mais .m3{
-        margin-left: 10px;
-    }
-
-    #beneficios .mais .m4{
-        margin-right: 21%;
-    }
-
-    #beneficios .botao {
-        width: 30%;
-        margin-left: 33%;
-    }
-    
-    #beneficios .imagem {
-        width: 35%;
-    }
-
-    #diferenciais .titulo .t1 {
-        width: 35%;
-        margin-left: 30%;
-    }
-
-    #diferenciais .titulo .t2 {
-        width: 35%;
-        margin-left: 30%;
-    }
-
-    #diferenciais .titulos1 .tt1 {
-        font-size: 30px;
-        height: 40px;
-    }
-
-
-    #diferenciais .titulos1 .tt2 {
-        font-size: 30px;
-        height: 40px;
-    }
-
-    #diferenciais .titulos2 .tt3 {
-        font-size: 25px;
-        height: 40px;
-        width: 100%;
-    }
-
-
-    #diferenciais .titulos2 .tt4 {
-        font-size: 25px;
-        height: 40px;
-        width: 70%;
-        margin-left: 15%;
-    }
-
-    #diferenciais .titulos3 .tt5 {
-        font-size: 30px;
-        width: 80%;
-        height: 40px;
-    }
-
-    #diferenciais .titulos3 .tt6 {
-        font-size: 30px;
-        width: 80%;
-        height: 40px;
-        margin-left: 15%;
-    }
-
-    #diferenciais .paragrafo3 p {
-        max-width: 200px;
-        margin-left: 28%;
-    }
-
-    #resultados .titulo .t1{
-        width: 45%;
-        margin-left: 28%;
-    }
-    
-    #resultados .titulo .t2 {
-        width: 45%;
-        font-size: 40px;
-        margin-left: 28%;
-    }
-
-    #resultados .subtitulo {
-        margin-left: 20%;
-    }
-
-    #resultados .conteudo .cont1{
-
-    font-size: 30px;
-    width: 50%;
-    height: 60px;
-    margin-left: 25%;
-    }
-
-    #resultados .conteudo .cont2{
-
-        font-size: 30px;
-        width: 50%;
-        height: 60px;
-        margin-left: 25%;
-        }
-
-     #resultados .conteudo .cont3{
-
-            font-size: 30px;
-            width: 50%;
-            height: 85px;
-            margin-left: 25%;
-     }
-
-     #resultados .conteudo .cont4{
-
-        font-size: 30px;
-        width: 50%;
-        height: 60px;
-        margin-left: 25%;
-        }
-
-        #clientes  .titulo .t1 {
-            width: 40%;
-            margin-left: 30%;
-        }
-
-        #clientes  .titulo .t2 {
-            width: 40%;
-            margin-left: 30%;
-        }
-
-        #especial .titulo .t1 {
-            width: 30%;
-            margin-left: 35%;
-        }
-
-        #especial .titulo2 {
-            width: 30%;
-            margin-left: 35%;
-        }
-
-        #especial .paragrafo {
-            margin-left: 18%;
-            
-        }
-
-        #compra .titulo .t1 {
-            width: 50%;
-            margin-left: 25%;
-        }
-
-        #compra .subtitulo h3 {
-            margin-left: 30%;
-        }
-        
-        #compra .subtitulo .marcacao {
-            padding-top: 14px;
-        }
-
-        #devolucao .paragrafo {
-            margin-left: 30%;
-        }
-        
-        #compras .titulo {
-            width: 40%;
-            margin-left: 27%;
-        }
-
-        #compras .imagem {
-            width: 50%;
-            margin-left: 25%;
-        }
-
-        #compras .conteudo1 .t1{
-            width: 40%;
-            margin-left: 27%;
-        }
-        
-        #compras .conteudo1 .t2 {
-            width: 40%;
-            margin-left: 27%;
-        }
-
-        #compras .conteudo1 .t3{
-            margin-right: 5%;
-        }
-
-        #compras .conteudo1 .t4 {
-            font-size: 20px;
-            height: 60px;
-        }
-
-    
-}
-/*COMPUTADORES*/
-@media only screen and (min-width: 1440px) {
-    #cta .botao {
-        width: 50%;
-        margin-left: 25%;
-    }
-
-    #apresentacao .texto p {
-        max-width: 400px;
-        margin-left: 20%;
-    }
-
-    #apresentacao .imagem {
-        width: 50%;
-    }
-    
-    #what .titulo .t1 {
-        width: 40%;
-        margin-left: 25%;
-    }
-
-    #what .titulo .t2 {
-        width: 30%;
-        margin-left: 30%;
-    }
-
-    #what .paragrafo {
-        margin-left: 15%;
-    }
-
-    #what .botao {
-        width: 20%;
-        margin-left: 35%;
-    }
-
-    #beneficios .titulo .t1 {
-        width: 40%;
-        margin-left: 30%;
-    }
-    
-    #beneficios .titulo .t2 {
-        width: 30%;
-        margin-left: 35%;
-    }
-
-    #beneficios .botao {
-        width: 20%;
-        margin-left: 40%;
-    }
-    
-    #beneficios .imagem {
-        max-width: 30%;
-        margin-left: 35%;
-    }
-
-    #diferenciais .titulo .t1 {
-        width: 40%;
-        margin-left: 30%;
-    }
-
-    #diferenciais .titulo .t2 {
-        width: 30%;
-        margin-left: 35%;
-    }
-
-    #resultados .titulo .t1 {
-        width: 40%;
-        margin-left: 30%;
-    }
-    
-    #resultados .titulo .t2 {
-        width: 30%;
-        margin-left: 35%;
-    }
-
-    #resultados .subtitulo {
-        margin-left: 20%;
-    }
-
-    #resultados .conteudo .cont1 {
-        width: 30%;
-        margin-left: 35%;
-    }
-    #resultados .conteudo .cont2 {
-        width: 30%;
-        margin-left: 35%;
-    }
-    #resultados .conteudo .cont3 {
-        width: 30%;
-        margin-left: 35%;
-    }
-    #resultados .conteudo .cont4 {
-        width: 30%;
-        margin-left: 35%;
-    }
-
-    #especial .titulo .t1 {
-        width: 40%;
-        margin-left: 30%;
-    }
-
-    #especial .titulo2{
-        width: 20%;
-        margin-left: 40%;
-    }
-    
-    #especial .paragrafo {
-        margin-left: 20%;
-    }
-
-    #compra .titulo .t1 {
-        width: 40%;
-        margin-left: 30%;
-    }
-
-    #compra .subtitulo h3 {
-        margin-left: 35%;
-    }
-
-    #compra .subtitulo .marcacao {
-        width: 40%;
-        margin-left: 30%;
-    }
-
-    #compra .imagem {
-        width: 20%;
-        margin-left: 40%;
-    }
-
-    #devolucao .titulo .t1 {
-        width: 40%;
-    }
-
-    #devolucao .titulo .t2 {
-        width: 30%;
-    }
-
-    #devolucao .paragrafo {
-        margin-left: 32%;
-    }
-
-    #devolucao .botao {
-        width: 20%;
-        margin-left: 40%;
-    }
-
-    #compras .imagem {
-            width: 40%;
-            margin-left: 30%;
-    }
-    
-    #compras .conteudo1 .t1 {
-        width: 40%;
-        margin-left: 30%;
-    }
-
-    #compras .conteudo1 .t2 {
-        width: 30%;
-        margin-left: 35%;
-    }
-
-    #compras .conteudo1 .t4 {
-        font-size: 20px;
-        max-width: 500px;
-        height: 60px;
-        margin-left: 30%;
-    }
-
-    #compras .botao {
-        width: 30%;
-        margin-left: 33%;
-    }
-    
-}
-
-/*//COMPUTADORES*/
-
-/*NOTEBOOK*/
-@media only screen and (min-width: 1366px) {
-    
-    
-
-    #apresentacao .texto .t1 {
-        width: 70%;
-        margin-left: 30%;
-    }
-
-    #apresentacao .texto .t2 {
-        width: 70%;
-        margin-left: 30%;
-    }
-   
-    #apresentacao .texto p {
-        max-width: 500px;
-        margin-left: 30%;
-    }
-
-    #apresentacao .imagem {
-        width: 60%;
-    }
-
-    #what .titulo .t1 {
-        width: 30%;
-        margin-left: 35%;
-
-    }
-
-    #what .titulo .t2 {
-        width: 30%;
-        margin-left: 35%;
-    }
-
-    #what .paragrafo p {
-        margin-left: 15%;
-        max-width: 600px;
-    }
-
-    #what .botao {
-        width: 20%;
-        margin-left: 40%;
-    }
-
-    #beneficios .titulo .t1 {
-        width: 40%;
-        margin-left: 30%;
-    }
-
-    #beneficios .titulo .t2 {
-        width: 40%;
-        margin-left: 30%;
-    }
-
-    #beneficios .mais h1{
-        font-style: italic;
-        font-size: 50px;
-    }
-
-    #beneficios .mais .m2{
-        margin-left: 4%;
-    }
-
-    #beneficios .mais .m4{
-        margin-right: 18%;
-    }
-
-    #beneficios .botao {
-        width: 20%;
-        margin-left: 40%;
-    }
-
-    #beneficios .imagem{
-        margin-left: 33%;
-    
-    }
-
-    #diferenciais .titulo .t1 {
-        width: 35%;
-        margin-left: 30%;
-    }
-
-    #diferenciais .titulo .t2 {
-        width: 35%;
-        margin-left: 30%;
-    }
-
-    #diferenciais .titulos1 .tt1{
-        font-style: italic;
-        font-size: 25px;
-        height: 40px;
-    }
-
-    #diferenciais .titulos1 .tt2 {
-        font-style: italic;
-        font-size: 25px;
-        height: 40px;
-    }
-
-    #diferenciais .paragrafo1 {
-        max-width: 500px;
-    }
-
-    #diferenciais .titulos2 .tt3 {
-        font-size: 25px;
-        width: 90%;
-        height: 40px;
-    }
-
-    #diferenciais .titulos2 .tt4 {
-        font-size: 25px;
-        width: 90%;
-        height: 40px;
-        margin-left: 0;
-    }
-    
-    #diferenciais .paragrafo2 {
-        max-width: 500px;
-    }
-
-    #diferenciais .titulos3 .tt5 {
-        font-size: 25px;
-        height: 40px;
-    }
-
-    #diferenciais .titulos3 .tt6 {
-
-        font-size: 25px;
-        height: 40px;
-    }
-
-    #resultados .titulo .t1 {
-        width: 40%;
-        margin-left: 30%;
-    }
-    
-    #resultados .titulo .t2 {
-        font-size: 40px;
-        width: 40%;
-        margin-left: 30%;    
-    
-    }
-
-    #resultados .subtitulo {
-        margin-left: 20%;
-    }
-
-    #resultados .conteudo .cont1 {
-        width: 40%;
-        border-radius: 6px;
-        margin-left: 30%;
-        font-style: italic;
-    }
-
-    #resultados .conteudo .cont2 {
-        width: 40%;
-        border-radius: 6px;
-        margin-left: 30%;
-        font-style: italic;
-    }
-
-    #resultados .conteudo .cont3 {
-        width: 40%;
-        border-radius: 6px;
-        margin-left: 30%;
-        font-style: italic;
-    }
-    
-    #resultados .conteudo .cont4 {
-        width: 40%;
-        border-radius: 6px;
-        margin-left: 30%;
-        font-style: italic;
-    }
-
-    #resultados .botao {
-        width: 20%;
-        margin-left: 40%;
-        border-radius: 8px;
-    }
-
-    #clientes .titulo .t1 {
-        width: 35%;
-        margin-left: 30%;
-    }
-
-    #clientes .titulo .t2 {
-        width: 35%;
-        margin-left: 30%;
-    }
-
-    #especial .titulo .t1 {
-        width: 30%;
-        margin-left: 35%;
-    }
-
-    #especial .titulo2 {
-        width: 20%;
-        margin-left: 40%;
-    }
-
-    #especial .paragrafo {
-        margin-left: 20%;
-    }
-
-    #compra .titulo .t1 {
-        width: 45%;
-        margin-left: 28%;
-    }
-
-    #compra .subtitulo h3 {
-        margin-left: 33%;
-    }
-
-    #compra .subtitulo .marcacao {
-        font-style: italic;
-        padding-top: 15px;
-        text-shadow: 0px 3px 20px #363120ad;
-    }
-
-    #devolucao .titulo .t1 {
-        width: 30%;
-        margin-left: 35%;
-    }
-
-    #devolucao .titulo .t2 {
-        width: 30%;
-        margin-left: 35%;
-    }
-
-    #devolucao .paragrafo {
-        margin-left: 32%;
-    }
-
-    #devolucao .botao {
-        width: 20%;
-        margin-left: 40%;
-     }
-
-     #compras .titulo {
-         width: 30%;
-         margin-left: 35%;
-     }
-
-     #compras .imagem {
-         width: 50%;
-         margin-left: 25%;
-     }
-
-     #compras .conteudo1 .t1 {
-         width: 30%;
-         margin-left: 33%;
-     }
-
-     #compras .conteudo1 .t2 {
-         width: 30%;
-         margin-left: 33%;
-     }
-
-     #compras .conteudo1 .t4  {
-         font-size: 30px;
-         height: 80px;
-         border-radius: 6px;
-         text-shadow: 0px 3px 20px #363120ad;
-     }
-     
-     #compras .botao {
-         width:  ;
-     }
-
-/*//NOTEBOOK*/
-
-
-/*MAC OS*/
-
-@media only screen and (min-width: 1800px) {
-
-    #cta .texto {
-        margin-left: 40%;
-    }
-
-    #cta .botao {
-        margin-left: 45%;
-    }
-
-    #cta .imagem {
-        width: 80%;
-    }
-
-    #apresentacao {
-        background-size: cover;
-    }
-
-    #apresentacao .texto .t1 {
-        width: 40%;
-        margin-left: 55%;
-        text-shadow: 0px 3px 20px #363120ad;
-    }
-
-    #apresentacao .texto .t2 {
-        width: 40%;
-        margin-left: 55%;
-        text-shadow: 0px 3px 20px #363120ad;
-    }
-
-    #apresentacao .texto p {
-        margin-left: 50%;
-        text-shadow: 0px 3px 20px #e66f0f;
-        font-size: 18px;
-        max-width: 600px;
-    }
-
-    #apresentacao .imagem {
-        width: 33%;
-        margin-left: 10%;
-       
-    }
-
-    #what .titulo .t1 {
-        width: 20%;
-        margin-left: 40%;
-        text-shadow: 0px 3px 20px #363120ad;
-    }
-
-    #what .titulo .t2 {
-            width: 20%;
-            margin-left: 40%;
-            text-shadow: 0px 3px 20px #363120ad;
-    }
-
-    #what .paragrafo p{
-        margin-left: 25%;
-        font-size: 18px;
-        max-width: 600px;
-    }
-
-    #what .botao {
-        width: 15%;
-        margin-left: 42%;
-        text-shadow: 0px 3px 20px #363120ad;
-    }
-
-    #beneficios .titulo .t1 {
-        width: 22%;
-        margin-left: 40%;
-        text-shadow: 0px 3px 20px #363120ad;
-    }
-
-    #beneficios .titulo .t2 {
-        width: 22%;
-        margin-left: 40%;
-        text-shadow: 0px 1px 20px #363120ad;
-    }
-
-    #beneficios .mais h1 {
-        font-size: 40px;
-        text-shadow: 0px 2px 2px #363120ad;
-    }
-
-    #beneficios .mais .m2 {
-        margin-left: 20px;
-    }
-
-    #beneficios .mais .m4 {
         margin-left: 8%;
     }
 
-    #beneficios .botao {
-        width: 15%;
-        height: 45px;
-        padding-top: 11px;
-        margin-left: 42%;
-        text-shadow: 0px 3px 20px #363120ad;
-    }
-
-    #beneficios .imagem {
-        width: 24%;
-        margin-left: 38%;
-    }
-
-    #diferenciais .titulo .t1{
-        width: 18%;
-        margin-left: 40%;
-      
-    }
-
-    #diferenciais .titulo .t2 {
-        width: 18%;
-        margin-left: 40%;
-        
-    }
-
-    #diferenciais .titulos1 .icones1 {
-        width: 60%;
-        margin-left: 18%;
-    }
-
-    #diferenciais .titulos1 .tt1 {
-        width: 45%;
-        height: 40px;
-        font-size: 30px;
-        margin-left: 25%;
-    }
-
-    #diferenciais .titulos1 .tt2 {
-        width: 45%;
-        height: 40px;
-        font-size: 30px;
-        margin-left: 25%;
-    }
-
-    #diferenciais .paragrafo1 .p1 {
-        margin-top: 20px;
-        max-width: 400px;
-        margin-left: 35%;
-        font-size: 18px;
-        font-style: italic;
-    }
-
-    #diferenciais .titulos2 .icones2 {
-        width: 60%;
-        margin-left: 15%;
-    }
-
-    #diferenciais .titulos2 .tt3 {
-        width: 60%;
-        height: 40px;
-        font-size: 30px;
-        margin-left: 15%;
-    }
-
-    #diferenciais .titulos2 .tt4 {
-        width: 60%;
-        height: 40px;
-        font-size: 30px;
-        margin-left: 15%;
-    }
-
-    #diferenciais .paragrafo2 .p2 {
-        max-width: 400px;
-        margin-left: 30%;
-        margin-top: 20px;
-        font-size: 18px;
-        font-style: italic;
-    }
-
-    #diferenciais .titulos3 .icones3 {
-        width: 60%;
-        margin-left: 20%;
-    }
-
-    #diferenciais .titulos3 .tt5 {
-        width: 45%;
-        height: 40px;
-        font-size: 30px;
-        margin-left: 30%;
-    }
-
-    #diferenciais .titulos3 .tt6 {
-        width: 45%;
-        font-size: 30px;
-        height: 40px;
-        margin-left: 30%;
-    }
-
-    #diferenciais .paragrafo3 .p3 {
-        max-width: 300px;
-        margin-top: 20px;
-        margin-left: 33%;
-        font-size: 18px;
-        font-style: italic;
-    }
-
-    #resultados .titulo .t1 {
-        width: 25%;
-        margin-left: 38%;
-   
-    }
-
-    #resultados .titulo .t2 {
-        width: 25%;
-        margin-left: 38%;
-        font-size: 40px;
-     
-    }
-
-    #resultados .subtitulo {
-        margin-left: 27%;
-        text-shadow: 0px 3px 80px #363120ad;
-    }
-
-    #resultados .conteudo .cont1 {
-        width: 30%;
-        height: 60px;
-        margin-left: 36%;
-        border-radius: 6px;
-        font-size: 30px;
-        font-style: italic;
-        text-shadow: 0px 3px 80px #363120ad;
-    }
-
-    #resultados .conteudo .cont2 {
-        width: 30%;
-        height: 60px;
-        margin-left: 36%;
-        border-radius: 6px;
-        font-size: 30px;
-        font-style: italic;
-        text-shadow: 0px 3px 80px #363120ad;
-    }
-
-    #resultados .conteudo .cont3 {
-        width: 30%;
-        height: 60px;
-        border-radius: 6px;
-        margin-left: 36%;
-        font-size: 30px;
-        height: 60px;
-        font-style: italic;
-        text-shadow: 0px 3px 80px #363120ad;
-    }
-
-    #resultados .conteudo .cont4 {
-        width: 30%;
-        height: 60px;
-        margin-left: 36%;
-        border-radius: 6px;
-        font-size: 30px;
-        text-shadow: 0px 3px 80px #363120ad;
-    }
-
-    #resultados .botao {
-        margin-top: 30px;
-        margin-bottom: 10px;
-        width: 15%;
-        margin-left: 43%;
-        border-radius: 6px;
-  
-    }
-
-    #clientes .titulo .t1 {
-        width: 20%;
-        margin-left: 40%;
-        text-shadow: 0px 3px 20px #363120ad;
-    }
-    
-    #clientes .titulo .t2 {
-        width: 20%;
-        margin-left: 40%;
-        text-shadow: 0px 3px 20px #363120ad;
-    }
-
-    #clientes .card {
-        margin-left: 20%;
-    }
-
-    #clientes .card img {
-        width: 50%;
-    }
-
-    #clientes .card .card-body {
-        width: 50%;
-        margin-left: 20.1%;
-    }
-
-    #clientes .card .card-body .card-text {
-        max-width: 300px;
-    }
-
-    #especial .titulo .t1 {
-        width: 20%;
-        margin-left: 40%;
-    }
-
-    #especial .titulo2 {
-        width: 12%;
-        margin-left: 45%;
-    }
-
-    #especial .paragrafo {
-        margin-left: 30%;
-        font-size: 1;
-        font-size: 18px;
-    }
-
-    #compra .titulo .t1 {
-        width: 25%;
-        margin-left: 37%;
-    }
-
-    #compra .subtitulo h3 {
-        margin-left: 36%;
-        max-width: 600px;
-    }
-
-    #compra .subtitulo .marcacao {
-        width: 25%;
-        height: 45px;
-        padding-top: 10px;
-        margin-left: 37%;
-        font-size: 20px;
-        text-shadow: 0px 1px 20px #363120ad;
-        font-style: italic;
-    }
-
-    #compra .imagem {
-        width: 18%;
-        margin-left: 40%;
-    }
-
-    #devolucao .titulo .t1 {
-        width: 20%;
-        margin-left: 40%;
-    }
-
-    #devolucao .titulo .t2 {
-        width: 15%;
-        margin-left: 42%;
-    }
-
-    #devolucao .paragrafo {
-        margin-left: 39%;
-        font-size: 16px;
-    }
-    
-    #devolucao .botao{
-        width: 15%;
-        margin-left: 42%;
-        text-shadow: 0px 1px 20px #363120ad;
-    }
-
-    #compras .titulo {
-        width: 20%;
-        margin-left: 40%;
-    }
-
-    #compras .imagem {
-        width: 20%;
-        margin-left: 40%;
-    }
-
-    #compras .conteudo1 .t1 {
-        width: 20%;
-        margin-left: 40%;
-    }
-
-    #compras .conteudo1 .t2 {
-        width: 20%;
-        margin-left: 40%;
-    }
-
-    #compras .conteudo1 .t3 {
-       margin-left: 4%;
-    }
-
-    #compras .conteudo1 .t4 {
-        margin-left: 40%;
-        width: 90%;
-        font-size: 18px;
-        height: 50px;
-        
+    #devolucao .botao {
+        padding-left: 40px;
     }
 
     #compras .botao {
-        width: 10%;
-        margin-left: 45%;
-        height: 50px;
-        padding-top: 11px;
-        border-radius: 6px;
-        font-family: 'Alfa Slab One', sans-serif;
-    }
-
-    #compras .botao h1 {
-        font-size: 18px;
-        text-shadow: 0px 1px 20px #363120ad;
+        padding-left: 40px;
     }
 }
 
-/*//MAC OS*/
 
-/*MEDIA QUERIES*/
+
+    @media screen and (min-width: 414px) {
+        
+        #cta .texto h1 {
+            font-size: 40px;
+        }
+
+        #what .botao {
+            padding-left: 50px;
+        }
+
+        #beneficios .botao {
+            padding-left: 40px;
+        }
+
+        #diferenciais .paragrafo2 p {
+            text-align: justify;
+        }
+
+        #resultados .botao {
+            padding-left: 50px;
+        }
+
+        #clientes .card {
+            margin-left: 12%;
+        }
+
+        #devolucao .botao {
+            padding-left: 50px;
+        }
+
+        #compras .botao {
+            padding-left: 50px;
+        }
+}
