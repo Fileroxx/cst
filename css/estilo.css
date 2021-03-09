@@ -389,7 +389,7 @@
         padding-top: 15px;
         width: 100%;
         font-weight: 900;
-        border-radius: 10px;
+   
     
     }
     
@@ -400,7 +400,7 @@
         padding-top: 15px;
         width: 100%;
         font-weight: 900;
-        border-radius: 10px;
+
     }
     
     #resultados .conteudo .cont3 {
@@ -410,7 +410,6 @@
         padding-top: 7px;
         width: 100%;  
         font-weight: 900;
-        border-radius: 10px;
     }
     
     #resultados .conteudo .cont4 {
@@ -420,7 +419,7 @@
         padding-top: 10px;
         width: 100%;
         font-weight: 900;
-        border-radius: 10px;
+
     }
     
     #resultados .botao {
@@ -782,3 +781,592 @@
             padding-left: 50px;
         }
 }
+
+    @media screen and (min-width: 768px) {
+    
+        #cta .imagem {
+            margin-top: 15%;
+        }
+
+        #apresentacao .texto .t2 {
+            height: 40px;
+        }
+
+        #apresentacao .imagem {
+            margin-top: 20%;
+            width: 100%;
+            margin-left: -10px;
+        }
+
+        #what .titulo .t1{
+            width: 50%;
+            margin-left: 22%;
+        }
+        
+        #what .titulo .t2 {
+            width: 50%;
+            margin-left: 22%;
+        }
+
+        #what .paragrafo {
+            max-width: 400px;
+            margin-left: 20%;
+        }
+
+        #what .botao{
+            width: 30%;
+            padding-left: 30px;
+            margin-left: 33%;
+        }
+
+        #beneficios .titulo .t1 {
+            width: 70%;
+            margin-bottom: 10px;
+            margin-left: 15%;
+            height: 55px;
+            font-size: 30px;
+        }
+
+        #beneficios .titulo .t2 {
+            width: 70%;
+            margin-bottom: 10px;
+            margin-left: 15%;
+            height: 55px;
+            font-size: 30px;
+        }
+
+        #beneficios .mais h1 {
+            font-size: 50px;
+            margin-left: 10%;
+        }
+
+        #beneficios .botao {
+            width: 30%;
+            height: 40px;
+            padding-left: 30px;
+            margin-left: 30%;
+        }
+
+        #beneficios .imagem {
+            width: 70%;
+            margin-left: 12%;
+        }
+
+        #diferenciais .titulo .t1 {
+            font-size: 30px;
+            width: 50%;
+            margin-left: 20%;
+        }
+
+        #diferenciais .titulo .t2 {
+            font-size: 30px;
+            width: 50%;
+            margin-left: 20%;
+        }
+
+        #diferenciais .icones1 {
+            width: 100%;
+        }
+
+        #diferenciais .titulos1 .tt1 {
+            font-size: 16px;
+        }
+
+        #diferenciais .titulos1 .tt2 {
+            font-size: 16px;
+        }
+
+        #diferenciais .paragrafo1 .p1 {
+            max-width: 300px;
+            text-align: left;
+        }
+
+        #diferenciais .icones2 {
+            width: 100%;
+        }
+
+        #diferenciais .titulos2 .tt3 {
+            font-size: 15px;
+        }
+
+        #diferenciais .titulos2 .tt4 {
+            font-size: 16px;
+        }
+
+        #diferenciais .paragrafo2 .p2 {
+            max-width: 300px;
+            text-align: left;
+        }
+
+        #resultados .titulo .t1 {
+            width: 60%;
+            height: 40px;
+            font-size: 30px;
+            margin-left: 20%;
+        }
+
+        #resultados .titulo .t2 {
+            width: 60%;
+            height: 40px;
+            font-size: 30px;
+            margin-left: 20%;
+        }
+
+        #resultados .subtitulo h3 {
+            margin-left: 20%;
+            font-weight: 700;
+        }
+
+        #resultados .conteudo .cont1 {
+            width: 60%;
+            font-size: 20px;
+            margin-left: 20%;
+            font-style: italic;
+        }
+
+        #resultados .conteudo .cont2 {
+            width: 60%;
+            font-size: 20px;
+            margin-left: 20%;
+            font-style: italic;
+        }
+
+        #resultados .conteudo .cont3 {
+            width: 60%;
+            font-size: 20px;
+            margin-left: 20%;
+            font-style: italic;
+        }
+
+        #resultados .conteudo .cont4 {
+            width: 60%;
+            font-size: 20px;
+            margin-left: 20%;
+            font-style: italic;
+        }
+
+        #resultados .botao {
+            width: 30%;
+            padding-left: 30px;
+            margin-left: 33%;
+        }
+        
+        #clientes .titulo .t1 {
+            width: 50%;
+            margin-left: 25%;
+            font-size: 30px;
+            height: 45px;
+        }
+
+        #clientes .titulo .t2 {
+            width: 50%;
+            margin-left: 25%;
+            font-size: 30px;
+            margin-bottom: 30px;
+            height: 45px;
+        }
+
+        #clientes .card {
+            display: inline;
+            margin-left: 0%;
+        }
+
+        #clientes .card-body .card-text {
+            text-align: left;
+        }
+
+        #especial .titulo .t1 {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #especial .titulo2 {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #especial .paragrafo p {
+            max-width: 350px;
+            text-align: left ;
+            margin-left: 25%;
+        }
+
+        #compra .titulo .t1{
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #compra .subtitulo h3 {
+            max-width: 500px;
+            margin-left: 18%;
+            font-weight: 400;
+        }
+
+        #compra .subtitulo .marcacao {
+            width: 50%;
+            margin-left: 25%;
+            font-style: italic;
+        }
+
+        #compra .imagem {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #devolucao .titulo .t1 {
+            width: 50%;
+            font-size: 30px;
+            margin-left: 25%;
+        }
+
+        #devolucao .titulo .t2 {
+            width: 50%;
+            font-size: 30px;
+            margin-left: 25%;
+        }
+
+        #devolucao .paragrafo {
+            max-width: 400px;
+            margin-left: 22%;
+        }
+
+        #devolucao .botao {
+            width: 30%;
+            padding-left: 30px;
+            margin-left: 35%;
+        }
+
+        #compras .titulo {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #compras .imagem {
+            width: 70%;
+            margin-left: 18%;
+        }
+        
+        #compras .conteudo1 .t1 {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #compras .conteudo1 .t2{
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #compras .conteudo1 .t4{
+            width: 50%;
+            margin-left: 25%;
+            height: 50px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        #compras .botao {
+            width: 30%;
+            padding-left: 30px;
+            margin-left: 35%;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        #apresentacao .imagem{
+            width: 70%;
+            margin-top: 40px;
+        }
+
+        #what .paragrafo {
+            margin-left: 27%;
+        }
+
+        #what .botao {
+            width: 30%;
+            padding-left: 7%;
+        }
+
+        #beneficios .titulo .t1{
+            font-size: 30px;
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #beneficios .titulo .t2 {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #beneficios .mais{
+            margin-left: 25%;
+        }
+
+        #beneficios .botao {
+            margin-top: 30px;
+            padding-left: 7%;
+            margin-left: 33%;
+        }
+
+        #beneficios .imagem {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #diferenciais .titulo {
+            margin-left: 10%;
+        }
+
+        #diferenciais .p1, .p2, .p3 {
+            margin-top: 20px;
+        }
+
+        #resultados .subtitulo {
+            margin-left: 10%;
+        }
+        
+        #resultados .conteudo .cont1 {
+            font-size: 25px;
+            width: 50%;
+            height: 40px;
+            padding-bottom: 40px;
+            margin-left: 23%;
+        }
+
+        #resultados .conteudo .cont2 {
+            font-size: 25px;
+            width: 50%;
+            height: 40px;
+            padding-bottom: 40px;
+            margin-left: 23%;
+        }
+
+        #resultados .conteudo .cont3 {
+            font-size: 25px;
+            width: 50%;
+            height: 40px;
+            padding-bottom: 40px;
+            margin-left: 23%;
+        }
+
+        #resultados .conteudo .cont4 {
+            font-size: 25px;
+            width: 50%;
+            height: 40px;
+            padding-bottom: 40px;
+            margin-left: 23%;
+        }
+        
+        #resultados .botao {
+            padding-left: 7%;
+            margin-left: 32%;
+        }
+
+        #especial .paragrafo {
+            margin-left: 10%;
+        }
+
+        #compra .subtitulo h3 {
+            margin-left: 25%;
+        }
+
+        #compra .imagem {
+            width: 40%;
+            margin-left: 30%;
+        }
+
+        #devolucao .paragrafo {
+            margin-left: 29%;
+        }
+
+        #devolucao .botao {
+            padding-left: 7%;
+            margin-left: 35%;
+        }
+
+        #compras .botao{
+            padding-left: 7%;
+        }
+    }
+
+    @media screen and (min-width: 1366px) {
+        #apresentacao .texto p {
+            max-width: 400px;
+            margin-left: 20%;
+        }
+
+        #apresentacao .imagem {
+            width: 60%;
+        }
+
+        #what .paragrafo{
+            margin-left: 32%;
+        }
+        
+        #what .botao {
+            width: 20%;
+            padding-left: 4%;
+            margin-left: 37%;
+        }
+
+        #beneficios .mais {
+            margin-left: 30%;
+        }
+
+        #beneficios .botao{
+            width: 20%;
+            padding-left: 4%;
+            margin-left: 40%;
+        }
+
+        #beneficios .imagem {
+            width: 40%;
+            margin-left: 30%;
+        }
+
+       #diferenciais .titulos1 .icones1 img{
+           width: 12%;
+       }
+
+       #diferenciais .titulos2 .icones2 img{
+        width: 14%;
+         }
+    
+        #diferenciais .titulos3 .icones3 img{
+        width: 12%;
+        }
+
+        #resultados .titulo .t1{
+            width: 40%;
+            margin-left: 30%;
+        }
+
+        #resultados .titulo .t2{
+            width: 40%;
+            margin-left: 30%;
+        }
+
+        #resultados .subtitulo {
+            margin-left: 20%;
+        }
+
+        #resultados .conteudo .cont1 {
+            width: 40%;
+            margin-left: 30%;
+        }
+
+        #resultados .conteudo .cont2 {
+            width: 40%;
+            margin-left: 30%;
+        }
+
+        #resultados .conteudo .cont3 {
+            width: 40%;
+            margin-left: 30%;
+        }
+
+        #resultados .conteudo .cont4 {
+            width: 40%;
+            margin-left: 30%;
+        }
+
+        #resultados .botao {
+            width: 20%;
+            padding-left: 4%;
+            margin-left: 40%;
+        }
+    
+        #clientes .card {
+            margin-left: 30px;
+        }
+
+        #clientes .card img{
+            width: 80%;
+        }
+
+        #clientes .card-body{
+            width: 80%;
+            margin-left: 30px;
+        }
+
+        #especial .titulo2 {
+            width: 30%;
+            margin-left: 35%;
+        }
+
+        #especial .paragrafo {
+            margin-left: 15%;
+        }
+
+        #compra .titulo .t1 {
+            width: 30%;
+            margin-left: 35%;
+        }
+
+        #compra .subtitulo h3{
+            margin-left: 30%;
+        }
+
+        #compra .subtitulo .marcacao{
+            width: 40%;
+            margin-left: 30%;
+            padding-top: 15px;
+        }
+
+        #compra .imagem {
+            width: 30%;
+            margin-left: 35%;
+        }
+
+        #devolucao .titulo .t1 {
+            width: 30%;
+            margin-left: 35%;
+        }
+        
+        #devolucao .titulo .t2 {
+            width: 30%;
+            margin-left: 35%;
+        }
+
+        #devolucao .paragrafo {
+            margin-left: 35%;
+        }
+
+        #devolucao .botao {
+            width: 20%;
+            padding-left: 4%;
+            margin-left: 40%;
+        }
+
+        #compras .titulo{
+            width: 40%;
+            margin-left: 30%;
+        }
+
+        #compras .imagem {
+            width: 40%;
+            margin-left: 30%;
+        }
+
+        #compras .conteudo1 .t1 {
+            width: 30%;
+            margin-left: 35%;
+            height: 50px;
+        }
+
+        #compras .conteudo1 .t2 {
+            width: 30%;
+            margin-left: 35%;
+        }
+
+        #compras .conteudo1 .t4{
+            width: 30%;
+            margin-left: 35%;
+        }
+
+        #compras .botao {
+            width: 20%;
+            padding-left: 4%;
+            margin-left: 40%;
+        }
+    }
+    
