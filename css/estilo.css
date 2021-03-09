@@ -1369,4 +1369,294 @@
             margin-left: 40%;
         }
     }
-    
+
+    @media screen and (min-width: 1400px) {
+        #apresentacao .texto .t1 {
+            width: 50%;
+            margin-left: 55%;
+        }
+
+        #apresentacao .texto .t2 {
+            width: 50%;
+            margin-left: 55%;
+            height: 48px;
+        }
+
+        #apresentacao .texto p {
+          margin-left: 60%;
+        }
+
+        #apresentacao .imagem {
+            width: 33%;
+            margin-left: -0%;
+        }
+
+        #what .titulo .t1{
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #what .titulo .t2{
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #what .paragrafo {
+            margin-left: 42%;
+        }
+
+        #what .botao {
+            width: 12%;
+            margin-left: 45%;
+            padding-left: 2.5%;
+        }
+
+        #beneficios .titulo .t1{
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #beneficios .titulo .t2{
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #beneficios .mais {
+            margin-left: 37%;
+        }
+
+        #beneficios .botao {
+            width: 15%;
+            margin-left: 42%;
+        }
+
+        #beneficios .imagem {
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #diferenciais .titulo .t1{
+            width: 20%;
+            margin-left: 35%;
+        }
+        
+        #diferenciais .titulo .t2{
+            width: 20%;
+            margin-left: 35%;
+        }
+        /*coluna 1*/
+
+        #diferenciais .titulos1 .icones1 {
+            width: 70%;
+            margin-left: 15%;
+        }
+
+        #diferenciais .titulos1 .tt1 {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #diferenciais .titulos1 .tt2 {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #diferenciais .paragrafo1 .p1 {
+            margin-left: 30%;
+        }
+        /*//coluna 1*/
+
+        /*coluna 2*/
+
+        #diferenciais .titulos2 .icones2 {
+            margin-top: 10px;
+            width: 70%;
+            margin-left: 15%;
+        }
+
+        #diferenciais .titulos2 .tt3 {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #diferenciais .titulos2 .tt4 {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #diferenciais .paragrafo2 .p2 {
+            margin-left: 30%;
+        }
+        /*//coluna 2*/
+
+        /*coluna 3*/
+
+        #diferenciais .titulos3 .icones3 {
+            width: 70%;
+            margin-left: 15%;
+        }
+
+        #diferenciais .titulos3 .tt5 {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #diferenciais .titulos3 .tt6 {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #diferenciais .paragrafo3 .p3 {
+            margin-left: 30%;
+        }
+        /*//coluna 3*/
+        
+        #resultados .titulo .t1 {
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #resultados .titulo .t2 {
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #resultados .subtitulo {
+            margin-left: 28%;
+        }
+
+        #resultados .conteudo .cont1 {
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #resultados .conteudo .cont2 {
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #resultados .conteudo .cont3 {
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #resultados .conteudo .cont4 {
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #resultados .botao {
+            width: 15%;
+            margin-left: 43%;
+        }
+
+        #clientes .titulo .t1{
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #clientes .titulo .t2{
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #clientes .card {
+            margin-left: 20%;
+        }
+
+        #clientes .card img {
+            width: 60%;
+        }
+
+        #clientes .card-body {
+            width: 60%;
+            margin-left: 20%;
+        }
+
+        #especial .titulo .t1 {
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #especial .titulo2 {
+            width: 20%;
+            margin-left: 40%;
+        }
+        
+        #especial .paragrafo {
+            margin-left: 25%;
+        }
+
+        #compra .titulo .t1{
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #compra .subtitulo h3{
+            margin-left: 40%;
+        }
+
+        #compra .subtitulo .marcacao {
+            width: 25%;
+            margin-left: 38%;
+        }
+
+        #compra .imagem{
+            width: 15%;
+            margin-left: 43%;
+        }
+
+        #devolucao .titulo .t1{
+            width: 20%;
+            margin-left: 40%;
+        }
+
+
+        #devolucao .titulo .t2{
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #devolucao .paragrafo {
+            margin-left: 42%;
+        }
+
+        #devolucao .botao {
+            width: 15%;
+            margin-left: 42%;
+        }
+
+        #compras .titulo {
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #compras .imagem {
+            width: 25%;
+            margin-left: 38%;
+        }
+
+        #compras .conteudo1 .t1 {
+            width: 20%;
+            margin-left: 40%;
+        }
+        
+        #compras .conteudo1 .t2 {
+            width: 20%;
+            margin-left: 40%;
+        }
+
+        #compras .conteudo1 .t4 {
+            width: 20%;
+            font-size: 25px;
+            height: 70px;
+            margin-left: 40%;
+            font-weight: 700;
+        }
+
+        #compras .botao {
+            width: 15%;
+            margin-left: 42.5%;
+        }
+
+    }
